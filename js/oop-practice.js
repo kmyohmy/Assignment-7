@@ -1,15 +1,8 @@
 //Step 1
-var Cat = function cat () {
+var Cat = function cat () {}
 
 
-}
-
-
-var Dog = function () {
-
-
-
-}
+var Dog = function () {}
 // Step 2
 var gato = new Cat(); 
 var perro = new Cat(); 
@@ -81,5 +74,28 @@ var Animal = function (type,breed,color,height,length) {
 }
 Animal("dog", "corgi", "brown", "5 feet", "7 inches");
 // Step 8
+var Animal = function (type,breed,color,height,length) {
+    // Set the param types
+    var type = type,
+    var breed = breed,
+    var color = color,
+    var height = height,
+    var length = length
+    //Log out the type
+    var i;
 
-// Step 9
+    for (i in animal) {
+        {
+            window.console.log(person[i] + " ");
+        }
+
+
+    }
+
+    // Speak
+    var speak = function (type, color) {
+        window.console.log("The" + color + " " + type + "is meowing!");
+    };
+    Animal.speak(type, color);
+}
+Animal("dog", "corgi", "brown", "5 feet", "7 inches");
