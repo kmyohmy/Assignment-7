@@ -1,6 +1,6 @@
 /*eslint-env browser*/
 
-//ADD THE F****ING ALBUM
+
 var btnaddtheAlbum = window.document.getElementById('addtheAlbum');
 var artist = window.document.getElementById('inputArtistName').value;
 var title = window.document.getElementById('inputAlbumName').value;
